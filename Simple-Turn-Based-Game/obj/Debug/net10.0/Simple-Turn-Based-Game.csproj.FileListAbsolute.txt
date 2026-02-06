@@ -1,0 +1,15 @@
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\bin\Debug\net10.0\Simple-Turn-Based-Game.exe
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\bin\Debug\net10.0\Simple-Turn-Based-Game.deps.json
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\bin\Debug\net10.0\Simple-Turn-Based-Game.runtimeconfig.json
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\bin\Debug\net10.0\Simple-Turn-Based-Game.dll
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\bin\Debug\net10.0\Simple-Turn-Based-Game.pdb
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\Simple-Turn-Based-Game.GeneratedMSBuildEditorConfig.editorconfig
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\Simple-Turn-Based-Game.AssemblyInfoInputs.cache
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\Simple-Turn-Based-Game.AssemblyInfo.cs
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\Simple-Turn-Based-Game.csproj.CoreCompileInputs.cache
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\Simple-Turn-Based-Game.sourcelink.json
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\Simple-Turn-Based-Game.dll
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\refint\Simple-Turn-Based-Game.dll
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\Simple-Turn-Based-Game.pdb
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\Simple-Turn-Based-Game.genruntimeconfig.cache
+f:\C# Projects\Simple Turn Based Game\Simple-Turn-Based-Game\Simple-Turn-Based-Game\obj\Debug\net10.0\ref\Simple-Turn-Based-Game.dll

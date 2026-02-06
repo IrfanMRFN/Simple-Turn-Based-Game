@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Simple-Turn-Based-Game/1.0.0": {
+        "runtime": {
+          "Simple-Turn-Based-Game.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Simple-Turn-Based-Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
