@@ -20,15 +20,23 @@ public class Program
         {
             // Player's turns
             Console.WriteLine("\nWhat do you want to do?\n1. Attack\n2. Heal\n3. Escape");
-            TurnStart:
-            Console.Write("Enter your choice (1-3): ");
+            string choice;
+            while (true)
+            {
+                Console.Write("Enter your choice (1-3): ");
+                choice = GetValidString();
+                if (choice == "1" || choice == "2" || choice == "3")
+                {
+                    break;
+                }
+                Console.WriteLine("Invalid input! Input must be between 1 and 3");
+            }
 
-            string choice = GetValidString();
             switch (choice)
             {
                 case "1":
-                    player.Attack(opponent);
-                    Console.WriteLine($"{player.Name} attacked the {opponent.Name} for {player.AttackPower} damage");
+                    int damage = player.Attack(opponent);
+                    Console.WriteLine($"{player.Name} attacked the {opponent.Name} for {damage} damage");
                     break;
 
                 case "2":
@@ -39,35 +47,40 @@ public class Program
                 case "3":
                     Console.WriteLine($"{player.Name} escaped the {opponent.Name}!");
                     exit = true;
-                    goto TurnEnd;
-
-                default:
-                    Console.WriteLine("Invalid input! Input must be between 1 and 3");
-                    goto TurnStart;
+                    break;
             }
 
-            if (opponent.IsDead)
+            if (exit)
             {
-                Console.WriteLine($"{player.Name} has killed the {opponent.Name}!");
-                Console.WriteLine($"\nCongratulations you managed to defeat the {opponent.Name} in {turnCount} turns");
-                exit = true;
-                goto TurnEnd;
+                break;
             }
 
-            // Opponent's turns
-            opponent.Attack(player);
-            Console.WriteLine($"{opponent.Name} attacked {player.Name} for {opponent.AttackPower} damage");
-
-            if (player.IsDead)
+            while (true)
             {
-                Console.WriteLine($"{opponent.Name} has killed {player.Name}!");
-                Console.WriteLine($"\nYou have played for {turnCount} turns");
-                exit = true;
-                goto TurnEnd;
+                if (opponent.IsDead)
+                {
+                    Console.WriteLine($"{player.Name} has killed the {opponent.Name}!");
+                    Console.WriteLine($"\nCongratulations you managed to defeat the {opponent.Name} in {turnCount} turns");
+                    exit = true;
+                    break;
+                }
+
+                // Opponent's turns
+                opponent.Attack(player);
+                Console.WriteLine($"{opponent.Name} attacked {player.Name} for {opponent.AttackPower} damage");
+
+                if (player.IsDead)
+                {
+                    Console.WriteLine($"{opponent.Name} has killed {player.Name}!");
+                    Console.WriteLine($"\nYou have played for {turnCount} turns");
+                    exit = true;
+                    break;
+                }
+
+                break;
             }
 
             Console.WriteLine($"\nGame status:\n{player.Name} health: {player.Health}/{player.MaxHealth}\n{opponent.Name} health: {opponent.Health}/{opponent.MaxHealth}");
-            TurnEnd:
             turnCount++;
         }
 

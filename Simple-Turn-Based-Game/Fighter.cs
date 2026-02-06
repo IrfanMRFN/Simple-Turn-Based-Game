@@ -2,6 +2,9 @@ namespace Simple_Turn_Based_Game;
 
 public class Fighter
 {
+    // Fields
+    private static Random _random = new Random();
+
     // Properties
     public string Name { get; set; }
     public int MaxHealth { get; private set; } = 100;
@@ -24,15 +27,14 @@ public class Fighter
 
     public void Heal(out int healAmount)
     {
-        Random random = new Random();
-        healAmount = random.Next(10, 26);
+        healAmount = _random.Next(10, 26);
         Health = Math.Min(MaxHealth, Health + healAmount);
     }
 
-    public void Attack(Fighter opponent)
+    public int Attack(Fighter opponent)
     {
-        Random random = new Random();
-        AttackPower = random.Next(5, 31);
+        AttackPower = _random.Next(5, 31);
         opponent.TakeDamage(AttackPower);
+        return AttackPower;
     }
 }

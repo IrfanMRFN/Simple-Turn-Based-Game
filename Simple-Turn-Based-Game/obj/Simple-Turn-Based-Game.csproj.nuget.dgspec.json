@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game.csproj": {}
+    "F:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game.csproj": {}
   },
   "projects": {
-    "f:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game.csproj": {
+    "F:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game.csproj",
+        "projectUniqueName": "F:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game.csproj",
         "projectName": "Simple-Turn-Based-Game",
-        "projectPath": "f:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game.csproj",
+        "projectPath": "F:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game.csproj",
         "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-        "outputPath": "f:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\obj\\",
+        "outputPath": "F:\\C# Projects\\Simple Turn Based Game\\Simple-Turn-Based-Game\\Simple-Turn-Based-Game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
